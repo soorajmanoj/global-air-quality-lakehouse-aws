@@ -1,0 +1,18 @@
+# Terraform local state and plugins
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+.terraform.lock.hcl
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# OS specific
+.DS_Store
+Thumbs.db
